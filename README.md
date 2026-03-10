@@ -5,11 +5,13 @@ No signup.
 No API.
 Just stunning visuals.
 
+<img width="1901" height="968" alt="image" src="https://github.com/user-attachments/assets/9e54cccd-5992-4691-a16a-83984352aec6" />
+
 ---
 
 ## Live Demo
 
-https://text-to-img-theta.vercel.app/
+https://text2png.netlify.app/
 
 ---
 
