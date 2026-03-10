@@ -1,16 +1,75 @@
-# React + Vite
+# Text to Image
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimal web app to **create beautiful quote images** for Instagram instantly.
+No signup.
+No API.
+Just stunning visuals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+https://text-to-img-theta.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **12 mesh gradient backgrounds** – organic, flowing color combinations
+- **27+ display fonts** – poster-worthy Google Fonts (Bebas Neue, Anton, Playfair, etc.)
+- **Custom text color** – preset swatches + color picker
+- **Font size control** – adjustable from 32px to 120px
+- **Grain texture effect** – adjustable intensity up to 80%
+- **Vignette effect** – subtle edge darkening
+- **Real-time preview** – see changes instantly
+- **High-res export** – 1080x1350px PNG (Instagram 4:5 ratio)
+- Clean, responsive, Apple-inspired dark UI
+- No authentication
+- No ads
+- No watermarks
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- Vanilla CSS (Apple-inspired UI)
+- Google Fonts API
+- Canvas API (image export)
+- Vercel (static deploy)
+
+---
+
+## How It Works
+
+1. Type your **quote or text**
+2. Choose a **gradient background** from 12 presets
+3. Select a **display font** from 27+ options
+4. Adjust **font size** and **text color**
+5. Toggle **grain** and **vignette** effects
+6. Click **Download PNG** to export
+
+> Everything is rendered client-side. Nothing is uploaded.
+
+---
+
+## Privacy
+
+All processing happens **locally in your browser**.
+No data is sent to any server.
+
+---
+
+## Installation
+
+```bash
+# Clone the repo
+git clone <YOUR_REPO_URL>
+
+# Install dependencies
+cd text-to-image
+npm install
+
+# Run locally
+npm run dev
+```
